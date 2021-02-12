@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: rgb(253, 253, 253);
+  font-family: "Prompt", sans-serif;
+  font-size: 15px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  background: rgb(0, 0, 0);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.container {
+  margin-left: 52px;
+  margin-right: 52px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+}
+.call {
+  font-size: 14px;
+  margin-left: 338px;
+}
+.call-text {
+  color: #9d9d9d;
+}
+.phone {
+  margin-left: 6px;
+}
+.menu {
+  justify-content: flex-end;
+  display: flex;
+  width: 34px;
+  flex-wrap: wrap;
+  margin-left: auto;
+}
+.menu span {
+  background: #fcfafa;
+  display: block;
+  width: 34px;
+  height: 2px;
+  margin-bottom: 5px;
+}
+.menu span:nth-child(2) {
+  width: 27px;
+}
+.menu span:nth-child(3) {
+  width: 21px;
+}
+.header-content {
+  margin-top: 23px;
+  display: flex;
+  justify-content: space-between;
+}
+/* .offer {
+} */
+.merits {
+  font-style: italic;
+  font-family: Prompt;
+  margin-bottom: 34px;
+}
+.merits span {
+  margin-right: 23px;
+}
+.help-text {
+  font-family: Teko;
+  font-size: 27px;
+}
+.introtext {
+  width: 340px;
+  margin-bottom: 40px;
+}
+h1 {
+  font-style: italic;
+  font-size: 38px;
+  margin-bottom: 20px;
+}
+.order {
+  color: rgb(226, 5, 5);
+  border: 1px solid rgb(226, 5, 5);
+  border-radius: 100px;
+  padding: 9px 25px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.order:hover {
+  background: rgb(226, 5, 5);
+  border: 1px solid rgb(226, 5, 5);
+  color: rgb(255, 255, 255);
+}
+.news {
+  width: 273px;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.news a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.news-pic {
+  width: 57px;
+  height: 57px;
+  border-radius: 15px;
+  display: block;
+}
+.news-info {
+  margin-left: 20px;
+}
+.news-info h4 {
+  font-family: Prompt;
+  font-weight: 300;
+  margin-bottom: -4px;
+  margin-top: 7px;
+}
+.news-info p {
+  color: #969393;
+  font-size: 12px;
+}
+.slider-pic {
+  display: block;
+  margin-top: 70px;
+}
+.slider-nav {
+  display: flex;
+  align-items: center;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 105px;
+}
+.arrow {
+  font-family: Arial, sans-serif;
+  font-style: 17px;
+}
+.slider-nav .arrow:first-child {
+  margin-right: 20px;
+}
+.slider-nav .arrow:last-child {
+  margin-left: 20px;
+}
+.triggers {
+  display: flex;
+  justify-content: space-between;
+  width: 130px;
+  align-items: center;
+}
+.triggers span {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  line-height: 36px;
+  text-align: center;
+  display: block;
+  opacity: 0.41;
+}
+.triggers span.active {
+  opacity: 1;
+}
